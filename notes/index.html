@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="oval oval-1"></div>
+      <div class="box box-1"></div>
+      <div class="oval oval-2"></div>
+      <div class="box box-2"></div>
+      <div class="oval oval-3"></div>
+      <div class="oval oval-4"></div>
+      <div class="box box-3"></div>
+      <div class="box box-4"></div>
+    </div>
+
+    <style>
+      html {
+        background-color: #191919;
+      }
+      .container {
+        position: relative;
+      }
+      .box {
+        position: absolute;
+        top: 82px;
+      }
+      .box-1 {
+        left: 86px;
+        width: 60px;
+        height: 93px;
+        border-left: 10px solid #fe5f55;
+        border-top: 10px solid #fe5f55;
+        border-right: 10px solid #fe5f55;
+      }
+      .box-2 {
+        left: 226px;
+        width: 30px;
+        height: 92px;
+        border-left: 10px solid #a64942;
+        border-top: 10px solid #a64942;
+      }
+      .box-3 {
+        left: 296px;
+        width: 30px;
+        height: 92px;
+        border-left: 10px solid #fe5f55;
+        border-top: 10px solid #fe5f55;
+      }
+      .box-4 {
+        left: 296px;
+        width: 40px;
+        height: 92px;
+        top: 102px;
+        border-top: 10px solid #f15f55;
+      }
+      .oval {
+        position: absolute;
+        top: 162px;
+        border-radius: 50%;
+        width: 50px;
+        height: 40px;
+        background: #fe5f55;
+      }
+      .oval.oval-1 {
+        left: 46px;
+      }
+      .oval.oval-2 {
+        left: 116px;
+      }
+      .oval.oval-3 {
+        background-color: #a64942;
+        left: 186px;
+      }
+      .oval.oval-4 {
+        left: 256px;
+      }
+    </style>
+  </body>
+</html>
