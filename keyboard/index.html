@@ -1,0 +1,75 @@
+<div class="back">
+  <div class="board">
+    <div class="u u1"></div>
+    <div class="u u2"></div>
+    <div class="u u3"></div>
+    <div class="u u4"></div>
+    <div class="u u5"></div>
+    <div class="lk">
+      <div class="l l1"></div>
+      <div class="l l2"></div>
+      <div class="l l3"></div>
+      <div class="l l4"></div>
+      <div class="l l5"></div>
+      <div class="l l6"></div>
+      <div class="l l7"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  html {
+    background-color: #998235;
+  }
+  .back {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .board {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    background-color: #191919;
+    height: 100px;
+    width: 180px;
+    border-radius: 10px;
+  }
+  .u {
+    position: absolute;
+    background-color: #191919;
+    width: 15px;
+    height: 52px;
+    top: 8px;
+  }
+  .u1 {
+    left: 20px;
+  }
+  .u2 {
+    left: 45px;
+  }
+  .u3 {
+    left: 95px;
+  }
+  .u4 {
+    left: 120px;
+  }
+  .u5 {
+    left: 145;
+  }
+  .lk {
+    height: 74%;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+  }
+  .l {
+    width: 14.28571428%; /* (1/7) */
+    margin: 2px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+</style>
