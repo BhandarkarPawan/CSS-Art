@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="semi white-semi"></div>
+  <div class="semi black-semi"></div>
+  <div class="inner white-in-black"></div>
+  <div class="inner black-in-white"></div>
+  <div class="dot dot-black"></div>
+  <div class="dot dot-white"></div>
+</div>
+<style>
+  .container {
+    transform: translate(35%, 15%);
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 195px;
+    border-radius: 50%;
+    border: 10px solid black;
+  }
+  .semi {
+    height: 200px;
+    width: 100px;
+  }
+  .black-semi {
+    border-radius: 0 150px 150px 0;
+    background-color: #000;
+  }
+  .white-semi {
+    border-radius: 150px 0 0 150px;
+    background-color: #fff;
+  }
+  .inner {
+    position: absolute;
+    border-radius: 50%;
+    left: 25%;
+    height: 100px;
+    width: 100px;
+  }
+  .white-in-black {
+    background-color: white;
+  }
+  .black-in-white {
+    top: 50%;
+    background-color: black;
+  }
+  .dot {
+    position: absolute;
+    border-radius: 50%;
+    left: 45%;
+    width: 22px;
+    height: 22px;
+  }
+  .dot-black {
+    top: 20%;
+    background: black;
+  }
+  .dot-white {
+    top: 70%;
+    background: white;
+  }
+</style>
