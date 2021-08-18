@@ -1,0 +1,71 @@
+<div class="i o i-x left">
+  <div class="i i-in">
+    <div class="p"></div>
+  </div>
+</div>
+<div class="o b"></div>
+<div class="i o i-x right">
+  <div class="i i-in">
+    <div class="p"></div>
+  </div>
+</div>
+
+<div class="i-in right"></div>
+
+<style>
+  body {
+    position: relative;
+    background: #191919;
+  }
+  .o {
+    background-color: #e08027;
+  }
+
+  .i-x {
+    position: absolute;
+    top: 69px;
+    height: 114px;
+    width: 114px;
+  }
+
+  .i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b {
+    position: absolute;
+    left: 168px;
+    top: 150px;
+    transform: rotate(45deg);
+    height: 55px;
+    width: 51px;
+  }
+
+  .i-in {
+    height: 90px;
+    width: 90px;
+    background-color: #191919;
+    border-radius: 50%;
+  }
+
+  .p {
+    height: 6px;
+    width: 12px;
+    transform: translateY(-2px);
+    border-radius: 150px 150px 0 0;
+    border: 9px solid #e08027;
+    border-bottom: none;
+  }
+  .left {
+    left: 81px;
+    border-radius: 0 50% 50% 50%;
+  }
+  .right {
+    left: 179px;
+    top: 59px;
+    border: 10px solid #191919;
+    border-radius: 50% 0 50% 50%;
+  }
+</style>
