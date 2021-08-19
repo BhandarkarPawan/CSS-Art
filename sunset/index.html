@@ -1,0 +1,46 @@
+<div class="main">
+  <div class="c sun"></div>
+  <div class="c left"></div>
+  <div class="c right"></div>
+</div>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+  }
+
+  .main {
+    position: relative;
+    overflow: hidden;
+    background-color: #f2ad43;
+    height: 200px;
+    width: 150px;
+    border-radius: 100px 100px 30px 30px;
+  }
+  .c {
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .right {
+    left: 33%;
+    background-color: #824b20;
+  }
+  .left {
+    left: -67%;
+    background-color: #e08027;
+  }
+  .sun {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -17%);
+    height: 60px;
+    width: 60px;
+    background-color: #fff58f;
+  }
+</style>
